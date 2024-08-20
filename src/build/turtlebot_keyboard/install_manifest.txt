@@ -1,0 +1,16 @@
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/lib/turtlebot_keyboard/keyboard_control
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/ament_index/resource_index/package_run_dependencies/turtlebot_keyboard
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/ament_index/resource_index/parent_prefix_path/turtlebot_keyboard
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/ament_prefix_path.sh
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/ament_prefix_path.dsv
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/path.sh
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/path.dsv
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.bash
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.sh
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.zsh
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.dsv
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/package.dsv
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/ament_index/resource_index/packages/turtlebot_keyboard
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/cmake/turtlebot_keyboardConfig.cmake
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/cmake/turtlebot_keyboardConfig-version.cmake
+/home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/venu/ros2_ws/src/turtlebot_keyboard -DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws/src/install/turtlebot_keyboard
+Invoked command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/venu/ros2_ws/src/turtlebot_keyboard -DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws/src/install/turtlebot_keyboard
+Invoking command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/venu/ros2_ws/src/build/turtlebot_keyboard -- -j16 -l16
+Invoked command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/venu/ros2_ws/src/build/turtlebot_keyboard -- -j16 -l16
+Invoking command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/venu/ros2_ws/src/build/turtlebot_keyboard
+Invoked command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/venu/ros2_ws/src/build/turtlebot_keyboard

@@ -1,0 +1,78 @@
+[0.008s] Invoking command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/venu/ros2_ws/src/turtlebot_keyboard -DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws/src/install/turtlebot_keyboard
+[0.036s] -- The C compiler identification is GNU 9.4.0
+[0.065s] -- The CXX compiler identification is GNU 9.4.0
+[0.068s] -- Check for working C compiler: /usr/bin/cc
+[0.106s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.107s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.154s] -- Check for working CXX compiler: /usr/bin/c++
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.197s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.248s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.262s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.302s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.370s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.386s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.462s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.474s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.474s] -- Looking for pthread.h
+[0.514s] -- Looking for pthread.h - found
+[0.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.554s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.554s] -- Looking for pthread_create in pthreads
+[0.587s] -- Looking for pthread_create in pthreads - not found
+[0.587s] -- Looking for pthread_create in pthread
+[0.624s] -- Looking for pthread_create in pthread - found
+[0.625s] -- Found Threads: TRUE  
+[0.711s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.731s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.770s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.770s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.770s] -- Configured cppcheck include dirs: 
+[0.770s] -- Configured cppcheck exclude dirs and/or files: 
+[0.771s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.771s] -- Configured cpplint exclude dirs and/or files: 
+[0.771s] -- Added test 'lint_cmake' to check CMake code style
+[0.771s] -- Added test 'uncrustify' to check C / C++ code style
+[0.772s] -- Configured uncrustify additional arguments: 
+[0.772s] -- Added test 'xmllint' to check XML markup files
+[0.773s] -- Configuring done
+[0.777s] -- Generating done
+[0.778s] -- Build files have been written to: /home/venu/ros2_ws/src/build/turtlebot_keyboard
+[0.784s] Invoked command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/venu/ros2_ws/src/turtlebot_keyboard -DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws/src/install/turtlebot_keyboard
+[0.785s] Invoking command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/venu/ros2_ws/src/build/turtlebot_keyboard -- -j16 -l16
+[0.805s] [35m[1mScanning dependencies of target keyboard_control[0m
+[0.823s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_control.dir/src/keyboard_control.cpp.o[0m
+[2.741s] [100%] [32m[1mLinking CXX executable keyboard_control[0m
+[2.835s] [100%] Built target keyboard_control
+[2.841s] Invoked command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/venu/ros2_ws/src/build/turtlebot_keyboard -- -j16 -l16
+[2.861s] Invoking command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/venu/ros2_ws/src/build/turtlebot_keyboard
+[2.865s] -- Install configuration: ""
+[2.865s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/lib/turtlebot_keyboard/keyboard_control
+[2.866s] -- Set runtime path of "/home/venu/ros2_ws/src/install/turtlebot_keyboard/lib/turtlebot_keyboard/keyboard_control" to ""
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/ament_index/resource_index/package_run_dependencies/turtlebot_keyboard
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/ament_index/resource_index/parent_prefix_path/turtlebot_keyboard
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/ament_prefix_path.sh
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/ament_prefix_path.dsv
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/path.sh
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/environment/path.dsv
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.bash
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.sh
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.zsh
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/local_setup.dsv
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/package.dsv
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/ament_index/resource_index/packages/turtlebot_keyboard
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/cmake/turtlebot_keyboardConfig.cmake
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/cmake/turtlebot_keyboardConfig-version.cmake
+[2.866s] -- Installing: /home/venu/ros2_ws/src/install/turtlebot_keyboard/share/turtlebot_keyboard/package.xml
+[2.867s] Invoked command in '/home/venu/ros2_ws/src/build/turtlebot_keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/venu/ros2_ws/src/build/turtlebot_keyboard
