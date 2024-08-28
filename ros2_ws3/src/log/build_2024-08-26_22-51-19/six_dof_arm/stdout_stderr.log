@@ -1,0 +1,79 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found moveit_core: 2.3.4 (/opt/ros/galactic/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found moveit_ros_planning: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found moveit_ros_planning_interface: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_ros_robot_interaction: 2.3.4 (/opt/ros/galactic/share/moveit_ros_robot_interaction/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/venu/ros2_ws3/src/build/six_dof_arm
+[35m[1mConsolidate compiler generated dependencies of target arm_movement[0m
+[ 50%] [32m[1mLinking CXX executable arm_movement[0m
+[100%] Built target arm_movement
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/lib/six_dof_arm/arm_movement
+[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/build/.built_by
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/build/COLCON_IGNORE
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/gazebo.launch.py
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/.colcon_install_layout
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/COLCON_IGNORE
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/_local_setup_util_ps1.py
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/_local_setup_util_sh.py
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.bash
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.ps1
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.sh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.zsh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.bash
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.ps1
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.sh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.zsh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/COLCON_IGNORE
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/build_2024-08-26_20-31-36/events.log
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/build_2024-08-26_20-31-36/logger_all.log
+-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest/events.log
+-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest/logger_all.log
+-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest_build/events.log
+-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest_build/logger_all.log
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/robot_state_publisher_launch.py
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/ament_index/resource_index/package_run_dependencies/six_dof_arm
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/ament_index/resource_index/parent_prefix_path/six_dof_arm
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.sh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.dsv
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/path.sh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/path.dsv
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.bash
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.sh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.zsh
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.dsv
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/package.dsv
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/ament_index/resource_index/packages/six_dof_arm
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/cmake/six_dof_armConfig.cmake
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/cmake/six_dof_armConfig-version.cmake
+-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/package.xml

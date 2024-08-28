@@ -1,0 +1,10 @@
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/uninstall.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/six_dof_arm_uninstall.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/arm_movement.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/test.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/edit_cache.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/rebuild_cache.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/list_install_components.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/install.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/install/local.dir
+/home/venu/ros2_ws3/build/six_dof_arm/CMakeFiles/install/strip.dir

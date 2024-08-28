@@ -1,0 +1,4 @@
+Invoking command in '/home/venu/ros2_ws3/build/gazebo_ros2_control': /usr/local/bin/cmake --build /home/venu/ros2_ws3/build/gazebo_ros2_control -- -j16 -l16
+Invoked command in '/home/venu/ros2_ws3/build/gazebo_ros2_control' returned '0': /usr/local/bin/cmake --build /home/venu/ros2_ws3/build/gazebo_ros2_control -- -j16 -l16
+Invoking command in '/home/venu/ros2_ws3/build/gazebo_ros2_control': /usr/local/bin/cmake --install /home/venu/ros2_ws3/build/gazebo_ros2_control
+Invoked command in '/home/venu/ros2_ws3/build/gazebo_ros2_control' returned '0': /usr/local/bin/cmake --install /home/venu/ros2_ws3/build/gazebo_ros2_control

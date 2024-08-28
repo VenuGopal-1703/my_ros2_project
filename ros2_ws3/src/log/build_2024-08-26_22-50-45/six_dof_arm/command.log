@@ -1,0 +1,6 @@
+Invoking command in '/home/venu/ros2_ws3/src/build/six_dof_arm': /usr/local/bin/cmake /home/venu/ros2_ws3/src/six_dof_arm -DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws3/src/install/six_dof_arm
+Invoked command in '/home/venu/ros2_ws3/src/build/six_dof_arm' returned '0': /usr/local/bin/cmake /home/venu/ros2_ws3/src/six_dof_arm -DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws3/src/install/six_dof_arm
+Invoking command in '/home/venu/ros2_ws3/src/build/six_dof_arm': /usr/local/bin/cmake --build /home/venu/ros2_ws3/src/build/six_dof_arm -- -j16 -l16
+Invoked command in '/home/venu/ros2_ws3/src/build/six_dof_arm' returned '0': /usr/local/bin/cmake --build /home/venu/ros2_ws3/src/build/six_dof_arm -- -j16 -l16
+Invoking command in '/home/venu/ros2_ws3/src/build/six_dof_arm': /usr/local/bin/cmake --install /home/venu/ros2_ws3/src/build/six_dof_arm
+Invoked command in '/home/venu/ros2_ws3/src/build/six_dof_arm' returned '0': /usr/local/bin/cmake --install /home/venu/ros2_ws3/src/build/six_dof_arm

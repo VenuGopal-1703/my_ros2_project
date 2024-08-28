@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000119] (six_dof_arm) JobQueued: {'identifier': 'six_dof_arm', 'dependencies': OrderedDict()}
+[0.000130] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.007283] (six_dof_arm) JobStarted: {'identifier': 'six_dof_arm'}
+[0.015339] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.015531] (gazebo_ros2_control) Command: {'cmd': ['/usr/local/bin/cmake', '/home/venu/ros2_ws3/src/gazebo_ros2_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/venu/ros2_ws3/src/install/gazebo_ros2_control'], 'cwd': '/home/venu/ros2_ws3/src/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'venu'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/galactic/lib'), ('HOME', '/home/venu'), ('OLDPWD', '/home/venu/ros2_ws3/src/gazebo_ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/venu/ros2_ws3/install:/home/venu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'venu'), ('JOURNAL_STREAM', '8:48799'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'venu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/galactic/share/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/bin:/home/venu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/venu:@/tmp/.ICE-unix/1485,unix/venu:/tmp/.ICE-unix/1485'), ('INVOCATION_ID', '151b0581df1c4a9781724792a8a098f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b1c6e10_c93a_4a4a_b61a_1a875c5b5a03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.660'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/local/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CONNEXTDDS_ARCH', 'x64Linux3gcc5.4.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/venu/ros2_ws3/src/build/gazebo_ros2_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/galactic/lib/gazebo_plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic')]), 'shell': False}
+[0.019237] (six_dof_arm) JobProgress: {'identifier': 'six_dof_arm', 'progress': 'cmake'}
+[0.021252] (six_dof_arm) JobProgress: {'identifier': 'six_dof_arm', 'progress': 'build'}
+[0.021295] (six_dof_arm) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/venu/ros2_ws3/src/build/six_dof_arm', '--', '-j16', '-l16'], 'cwd': '/home/venu/ros2_ws3/src/build/six_dof_arm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'venu'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/galactic/lib'), ('HOME', '/home/venu'), ('OLDPWD', '/home/venu/ros2_ws3/src/gazebo_ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/venu/ros2_ws3/install:/home/venu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'venu'), ('JOURNAL_STREAM', '8:48799'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'venu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/galactic/share/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/bin:/home/venu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/venu:@/tmp/.ICE-unix/1485,unix/venu:/tmp/.ICE-unix/1485'), ('INVOCATION_ID', '151b0581df1c4a9781724792a8a098f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b1c6e10_c93a_4a4a_b61a_1a875c5b5a03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.660'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/local/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CONNEXTDDS_ARCH', 'x64Linux3gcc5.4.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/venu/ros2_ws3/src/build/six_dof_arm'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/galactic/lib/gazebo_plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic')]), 'shell': False}
+[0.034898] (six_dof_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.052000] (six_dof_arm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.059270] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.091966] (six_dof_arm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.096688] (six_dof_arm) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.098290] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.099274] (-) TimerEvent: {}
+[0.104786] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.125158] (six_dof_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.127705] (six_dof_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.144241] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152847] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153076] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153213] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.156096] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.197648] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199548] (-) TimerEvent: {}
+[0.204742] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.205115] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.205431] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.208693] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.228216] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.228425] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.230508] (six_dof_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.267465] (six_dof_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.268730] (six_dof_arm) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.269910] (gazebo_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.282410] (six_dof_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.299801] (-) TimerEvent: {}
+[0.309673] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.376800] (six_dof_arm) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)\n'}
+[0.378123] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.381190] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.381446] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.381551] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.384067] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.384271] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.384607] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.385658] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.386327] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.389013] (six_dof_arm) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.389288] (six_dof_arm) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.389415] (six_dof_arm) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.389638] (six_dof_arm) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.389768] (six_dof_arm) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.389869] (six_dof_arm) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.389964] (six_dof_arm) StderrLine: {'line': b'  /usr/local/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.390056] (six_dof_arm) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.390146] (six_dof_arm) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.390237] (six_dof_arm) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.390332] (six_dof_arm) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.390422] (six_dof_arm) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.390516] (six_dof_arm) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.390612] (six_dof_arm) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.390710] (six_dof_arm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.391255] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.391379] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.391478] (six_dof_arm) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[0.391574] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.391666] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.391757] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.392630] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[0.393110] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/venu/ros2_ws3/src/build/gazebo_ros2_control\n'}
+[0.396471] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[0.397112] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[0.398624] (gazebo_ros2_control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/venu/ros2_ws3/src/build/gazebo_ros2_control', '--', '-j16', '-l16'], 'cwd': '/home/venu/ros2_ws3/src/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'venu'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/galactic/lib'), ('HOME', '/home/venu'), ('OLDPWD', '/home/venu/ros2_ws3/src/gazebo_ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/venu/ros2_ws3/install:/home/venu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'venu'), ('JOURNAL_STREAM', '8:48799'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'venu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/galactic/share/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/bin:/home/venu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/venu:@/tmp/.ICE-unix/1485,unix/venu:/tmp/.ICE-unix/1485'), ('INVOCATION_ID', '151b0581df1c4a9781724792a8a098f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b1c6e10_c93a_4a4a_b61a_1a875c5b5a03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.660'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/local/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CONNEXTDDS_ARCH', 'x64Linux3gcc5.4.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/venu/ros2_ws3/src/build/gazebo_ros2_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/galactic/lib/gazebo_plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic')]), 'shell': False}
+[0.400418] (-) TimerEvent: {}
+[0.403159] (six_dof_arm) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[0.408306] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[0.420739] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[0.423203] (gazebo_ros2_control) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/venu/ros2_ws3/src/build/gazebo_ros2_control'], 'cwd': '/home/venu/ros2_ws3/src/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'venu'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/galactic/lib'), ('HOME', '/home/venu'), ('OLDPWD', '/home/venu/ros2_ws3/src/gazebo_ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/venu/ros2_ws3/install:/home/venu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'venu'), ('JOURNAL_STREAM', '8:48799'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'venu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/galactic/share/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/bin:/home/venu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/venu:@/tmp/.ICE-unix/1485,unix/venu:/tmp/.ICE-unix/1485'), ('INVOCATION_ID', '151b0581df1c4a9781724792a8a098f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b1c6e10_c93a_4a4a_b61a_1a875c5b5a03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.660'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/local/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CONNEXTDDS_ARCH', 'x64Linux3gcc5.4.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/venu/ros2_ws3/src/build/gazebo_ros2_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/galactic/lib/gazebo_plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic')]), 'shell': False}
+[0.426198] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.426812] (gazebo_ros2_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.426981] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[0.428980] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[0.431195] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[0.432691] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[0.434335] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[0.436151] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[0.437845] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[0.439404] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[0.440733] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[0.442503] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[0.443973] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[0.445523] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[0.446964] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[0.448380] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[0.449914] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[0.452999] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[0.479651] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[0.498746] (six_dof_arm) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[0.500528] (-) TimerEvent: {}
+[0.538773] (six_dof_arm) StdoutLine: {'line': b'-- Found fcl: /usr/local/include (found suitable version "0.6.0", minimum required is "0.3.2") \n'}
+[0.585800] (six_dof_arm) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[0.598805] (six_dof_arm) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.600711] (-) TimerEvent: {}
+[0.612285] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.624029] (six_dof_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.629780] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.635263] (six_dof_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.636367] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.636648] (six_dof_arm) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.640185] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.649921] (six_dof_arm) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.674090] (six_dof_arm) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.681679] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.688599] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.694487] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.694663] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.700085] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.700265] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.700778] (-) TimerEvent: {}
+[0.706553] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.706769] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.712400] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.712581] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.718161] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.718338] (six_dof_arm) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.724181] (six_dof_arm) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.800997] (-) TimerEvent: {}
+[0.842257] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.845128] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[0.845400] (six_dof_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.860039] (six_dof_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.869159] (six_dof_arm) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.872237] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.881292] (six_dof_arm) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[0.901227] (-) TimerEvent: {}
+[0.907395] (six_dof_arm) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.910846] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.920744] (six_dof_arm) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.946149] (six_dof_arm) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.948897] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[0.949111] (six_dof_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.962774] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.965796] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.975104] (six_dof_arm) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.000733] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.001287] (-) TimerEvent: {}
+[1.003683] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[1.004063] (six_dof_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.004172] (six_dof_arm) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.005145] (six_dof_arm) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.006288] (six_dof_arm) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.012152] (six_dof_arm) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.014863] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[1.014972] (six_dof_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.015194] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.018512] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[1.018595] (six_dof_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.042584] (six_dof_arm) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[1.048849] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.058341] (six_dof_arm) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.082624] (six_dof_arm) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.085898] (six_dof_arm) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.095193] (six_dof_arm) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.101537] (-) TimerEvent: {}
+[1.121118] (six_dof_arm) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.121299] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[1.121600] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.121926] (six_dof_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.122660] (six_dof_arm) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[1.125288] (six_dof_arm) StdoutLine: {'line': b'-- Found moveit_core: 2.3.4 (/opt/ros/galactic/share/moveit_core/cmake)\n'}
+[1.130496] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.140220] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem \n'}
+[1.188160] (six_dof_arm) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.201640] (-) TimerEvent: {}
+[1.302022] (-) TimerEvent: {}
+[1.402397] (-) TimerEvent: {}
+[1.502782] (-) TimerEvent: {}
+[1.603193] (-) TimerEvent: {}
+[1.703613] (-) TimerEvent: {}
+[1.804030] (-) TimerEvent: {}
+[1.904439] (-) TimerEvent: {}
+[2.004862] (-) TimerEvent: {}
+[2.105284] (-) TimerEvent: {}
+[2.205720] (-) TimerEvent: {}
+[2.306195] (-) TimerEvent: {}
+[2.406648] (-) TimerEvent: {}
+[2.423423] (six_dof_arm) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning/cmake)\n'}
+[2.427317] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.506879] (-) TimerEvent: {}
+[2.607305] (-) TimerEvent: {}
+[2.612615] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[2.707524] (-) TimerEvent: {}
+[2.807926] (-) TimerEvent: {}
+[2.908269] (-) TimerEvent: {}
+[3.008689] (-) TimerEvent: {}
+[3.035259] (six_dof_arm) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning_interface/cmake)\n'}
+[3.039914] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread \n'}
+[3.108791] (-) TimerEvent: {}
+[3.209199] (-) TimerEvent: {}
+[3.306972] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options \n'}
+[3.309295] (-) TimerEvent: {}
+[3.409639] (-) TimerEvent: {}
+[3.509954] (-) TimerEvent: {}
+[3.565722] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread \n'}
+[3.610179] (-) TimerEvent: {}
+[3.710458] (-) TimerEvent: {}
+[3.810868] (-) TimerEvent: {}
+[3.911225] (-) TimerEvent: {}
+[3.974051] (six_dof_arm) StdoutLine: {'line': b'-- Found moveit_ros_robot_interaction: 2.3.4 (/opt/ros/galactic/share/moveit_ros_robot_interaction/cmake)\n'}
+[3.977586] (six_dof_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[4.011450] (-) TimerEvent: {}
+[4.065860] (six_dof_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.087701] (six_dof_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[4.090194] (six_dof_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/venu/ros2_ws3/src/build/six_dof_arm\n'}
+[4.104739] (six_dof_arm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arm_movement\x1b[0m\n'}
+[4.111559] (-) TimerEvent: {}
+[4.117321] (six_dof_arm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arm_movement.dir/src/arm_movement.cpp.o\x1b[0m\n'}
+[4.211919] (-) TimerEvent: {}
+[4.312317] (-) TimerEvent: {}
+[4.412777] (-) TimerEvent: {}
+[4.513193] (-) TimerEvent: {}
+[4.613576] (-) TimerEvent: {}
+[4.714000] (-) TimerEvent: {}
+[4.814383] (-) TimerEvent: {}
+[4.914784] (-) TimerEvent: {}
+[5.015170] (-) TimerEvent: {}
+[5.115488] (-) TimerEvent: {}
+[5.215761] (-) TimerEvent: {}
+[5.316166] (-) TimerEvent: {}
+[5.416571] (-) TimerEvent: {}
+[5.516955] (-) TimerEvent: {}
+[5.617396] (-) TimerEvent: {}
+[5.717772] (-) TimerEvent: {}
+[5.818243] (-) TimerEvent: {}
+[5.918640] (-) TimerEvent: {}
+[6.018902] (-) TimerEvent: {}
+[6.119269] (-) TimerEvent: {}
+[6.219667] (-) TimerEvent: {}
+[6.320058] (-) TimerEvent: {}
+[6.420462] (-) TimerEvent: {}
+[6.520942] (-) TimerEvent: {}
+[6.621321] (-) TimerEvent: {}
+[6.721682] (-) TimerEvent: {}
+[6.822075] (-) TimerEvent: {}
+[6.922463] (-) TimerEvent: {}
+[7.022899] (-) TimerEvent: {}
+[7.123279] (-) TimerEvent: {}
+[7.223661] (-) TimerEvent: {}
+[7.323969] (-) TimerEvent: {}
+[7.424360] (-) TimerEvent: {}
+[7.485694] (six_dof_arm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arm_movement\x1b[0m\n'}
+[7.524555] (-) TimerEvent: {}
+[7.624956] (-) TimerEvent: {}
+[7.725346] (-) TimerEvent: {}
+[7.825605] (six_dof_arm) StdoutLine: {'line': b'[100%] Built target arm_movement\n'}
+[7.825802] (-) TimerEvent: {}
+[7.829579] (six_dof_arm) CommandEnded: {'returncode': 0}
+[7.842036] (six_dof_arm) JobProgress: {'identifier': 'six_dof_arm', 'progress': 'install'}
+[7.843344] (six_dof_arm) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/venu/ros2_ws3/src/build/six_dof_arm'], 'cwd': '/home/venu/ros2_ws3/src/build/six_dof_arm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'venu'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/galactic/lib'), ('HOME', '/home/venu'), ('OLDPWD', '/home/venu/ros2_ws3/src/gazebo_ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/venu/ros2_ws3/install:/home/venu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'venu'), ('JOURNAL_STREAM', '8:48799'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'venu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/galactic/share/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/galactic/bin:/home/venu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/venu:@/tmp/.ICE-unix/1485,unix/venu:/tmp/.ICE-unix/1485'), ('INVOCATION_ID', '151b0581df1c4a9781724792a8a098f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b1c6e10_c93a_4a4a_b61a_1a875c5b5a03'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.660'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/local/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CONNEXTDDS_ARCH', 'x64Linux3gcc5.4.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/venu/ros2_ws3/src/build/six_dof_arm'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/galactic/lib/gazebo_plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/venu/ros2_ws3/install/six_dof_arm:/home/venu/ros2_ws/install/turtlebot_keyboard:/opt/ros/galactic')]), 'shell': False}
+[7.845213] (six_dof_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.846039] (six_dof_arm) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.846664] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/lib/six_dof_arm/arm_movement\n'}
+[7.847090] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/build/.built_by\n'}
+[7.847267] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/build/COLCON_IGNORE\n'}
+[7.847383] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/gazebo.launch.py\n'}
+[7.847507] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/.colcon_install_layout\n'}
+[7.847634] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/COLCON_IGNORE\n'}
+[7.847730] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/_local_setup_util_ps1.py\n'}
+[7.847827] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/_local_setup_util_sh.py\n'}
+[7.847923] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.bash\n'}
+[7.848018] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.ps1\n'}
+[7.848113] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.sh\n'}
+[7.848214] (six_dof_arm) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[7.848313] (six_dof_arm) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[7.848401] (six_dof_arm) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[7.848487] (six_dof_arm) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.848572] (six_dof_arm) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.848656] (six_dof_arm) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)\n'}
+[7.848742] (six_dof_arm) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[7.848829] (six_dof_arm) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.848914] (six_dof_arm) StderrLine: {'line': b'\x1b[0m\n'}
+[7.849008] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/local_setup.zsh\n'}
+[7.849120] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.bash\n'}
+[7.849217] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.ps1\n'}
+[7.849368] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.sh\n'}
+[7.849552] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/install/setup.zsh\n'}
+[7.849619] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/COLCON_IGNORE\n'}
+[7.849694] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/build_2024-08-26_20-31-36/events.log\n'}
+[7.849750] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/build_2024-08-26_20-31-36/logger_all.log\n'}
+[7.849802] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest/events.log\n'}
+[7.849852] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest/logger_all.log\n'}
+[7.849902] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest_build/events.log\n'}
+[7.849973] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/log/latest_build/logger_all.log\n'}
+[7.850022] (six_dof_arm) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/moveit.launch.py\n'}
+[7.850069] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/launch/robot_state_publisher_launch.py\n'}
+[7.850117] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/ament_index/resource_index/package_run_dependencies/six_dof_arm\n'}
+[7.850164] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/ament_index/resource_index/parent_prefix_path/six_dof_arm\n'}
+[7.850211] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.sh\n'}
+[7.850257] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/ament_prefix_path.dsv\n'}
+[7.850343] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/path.sh\n'}
+[7.850397] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/environment/path.dsv\n'}
+[7.850511] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.bash\n'}
+[7.850629] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.sh\n'}
+[7.850726] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.zsh\n'}
+[7.850825] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/local_setup.dsv\n'}
+[7.850916] (six_dof_arm) StdoutLine: {'line': b'-- Symlinking: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/package.dsv\n'}
+[7.852368] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/ament_index/resource_index/packages/six_dof_arm\n'}
+[7.852606] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/cmake/six_dof_armConfig.cmake\n'}
+[7.852685] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/cmake/six_dof_armConfig-version.cmake\n'}
+[7.852797] (six_dof_arm) StdoutLine: {'line': b'-- Up-to-date symlink: /home/venu/ros2_ws3/src/install/six_dof_arm/share/six_dof_arm/package.xml\n'}
+[7.854848] (six_dof_arm) CommandEnded: {'returncode': 0}
+[7.876943] (six_dof_arm) JobEnded: {'identifier': 'six_dof_arm', 'rc': 0}
+[7.877878] (-) EventReactorShutdown: {}

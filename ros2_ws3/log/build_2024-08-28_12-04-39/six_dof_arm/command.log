@@ -1,0 +1,2 @@
+Invoking command in '/home/venu/ros2_ws3/build/six_dof_arm': /usr/local/bin/cmake --build /home/venu/ros2_ws3/build/six_dof_arm -- -j16 -l16
+Invoked command in '/home/venu/ros2_ws3/build/six_dof_arm' returned '2': /usr/local/bin/cmake --build /home/venu/ros2_ws3/build/six_dof_arm -- -j16 -l16
